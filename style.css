@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(320deg, #000000, #74746f, #000000);
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+}
+
+.container {
+    width: 650px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 425px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: linear-gradient(320deg, #00ffbf, #adadad, #6a34e9);
+
+}
+
+.fahrenheit {
+    height: 475px;
+}
+
+.celsius {
+    height: 475px;
+}
+
+.title-fah {
+    font-size: 30px;
+    text-align: center;
+}
+
+.title-cel {
+    font-size: 30px;
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 3px solid #555;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(255, 245, 245);
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.result {
+    font-weight: bold;
+    color: rgb(6, 46, 1);
+}
+
+    
